@@ -53,7 +53,6 @@ class Compare:
         
         for i in range(len(self.L)):
             f1 = open(self.L[i][0], "r")
-            print(self.L[i][1])
             f2 = open(self.L[i][1], "r")
             t1 = ast.parse(f1.read())
             t2 = ast.parse(f2.read())
