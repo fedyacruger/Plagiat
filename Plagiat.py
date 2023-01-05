@@ -1,9 +1,6 @@
 import argparse
 import numpy as np
 import ast
-import os
-
-
 
 class Compare:
     
