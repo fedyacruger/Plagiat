@@ -42,7 +42,7 @@ class Compare:
                 c = D[i - 1][j - 1] + m
 
                 D[i][j] = min(a, b, c)
-        print(D[M][N])
+                
         return D[M][N]/max(len(s1), len(s2))
     
     def Result(self):
@@ -56,7 +56,6 @@ class Compare:
             s1 = ast.dump(t1, annotate_fields = False)
             s2 = ast.dump(t2, annotate_fields = False)
             distances.append(self.Levi_dist(s1, s2))
-            print("OK")
             f1.close()
             f2.close()
             
